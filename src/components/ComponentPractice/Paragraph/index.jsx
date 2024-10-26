@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function Paragraph({ children, size = 16, color = 'white' }) {
+function Paragraph({ children, size = 16, color = 'black' }) {
   return <p style={{ fontSize: size, color: color }}>{children}</p>;
 }
 
