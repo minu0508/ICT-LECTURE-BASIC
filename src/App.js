@@ -7,6 +7,13 @@ import { UseEffectPage } from './components/UseEffectPractice/UseEffectPage';
 import { UseRefPage } from './components/UseRefPractice/UseRefPage';
 import { PagenationPage } from './components/PagenationPractice/PagenationPage';
 import { ComponentStylingPage } from './components/ComponentStylingPracttice/ComponentStylingPage';
+import { UseMemoPage } from './components/UseMemoPractice/UseMemoPage';
+import { ReactMemoPage } from './components/ReactMemoPractice/ReactMemoPage';
+import { UseCallbackPage } from './components/UseCallbackPractice/UseCallbackPage';
+import { CustomHookPage } from './components/CustomHookPractice/CustomHookPage';
+import { SignInPage } from './components/SignUp-In/SignInPage';
+import { SignUpPage } from './components/SignUp-In/SignUpPage';
+import { TextPage } from './components/TextPractice/TextPage';
 
 function App() {
   const [totalCount, setTotalCount] = useState(0);
@@ -52,6 +59,13 @@ function App() {
           <Route path="/useRef" element={<UseRefPage />} />
           <Route path="/pagenation" element={<PagenationPage />} />
           <Route path="/componentstyling" element={<ComponentStylingPage />} />
+          <Route path="/usememo" element={<UseMemoPage />} />
+          <Route path="/reactmemo" element={<ReactMemoPage />} />
+          <Route path="/usecallback" element={<UseCallbackPage />} />
+          <Route path="/customhook" element={<CustomHookPage />} />
+          <Route path="/signin" element={<SignInPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/text" element={<TextPage />} />
         </Routes>
       </BrowserRouter>
     </>
